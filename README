@@ -1,0 +1,58 @@
+
+#######################
+ QuotesMachine Readme
+#######################
+
+Copyright © 2006 - 2007 Martin Kozák (martinkozak@martinkozak.net)
+
+All materials are distributed under The MIT License. 
+See the 'COPYING' in application folder.
+
+
+REQUIREMENTS
+------------
+
+QoutesMachine requires PHP 4.1.0 or higher and MySQL 3.23 or higher.
+JSON import and export feature requires the PHP JSON extension or PHP 
+higher than version 5.2.0. Import feature requires PHP 4.3.0 or higher.
+
+
+INSTALLATION
+------------
+
+1. Copy all files to a directory in Your web. 
+   (default is "./quotes-machine/")
+2. Edit the includes.config.php file, fill in all usernames and its 
+   passwords and informations for database access.
+3. Open the db/import.php file or import the quotes_machine.sql to
+   Your database.
+   
+   
+USING
+-----
+
+1. If you've copy the files to another directory than default,
+   assigns path to this directory to $qm_path variable.
+2. Include the includes.page.php file to Your script.
+3. Use the $qm_quote object with current quote, You have available 
+   the following fields:
+   
+   $qm_quote->author
+   $qm_quote->url
+   $qm_quote->body
+    
+Quotes administration is available at login.php.
+
+
+UTILITES
+--------
+
+utils/drupal-to-quotesmachine-converter.php
+	
+	Allows converts Your quotes from Drupal's Quotes module by 
+	Jim Riggs to QuotesMachine database. It's necessary to have
+	both source and target database on one server. For entering 
+	database access informations edit the inside of file.
+	It requires PHP 4.3.0 or higher.
+
+

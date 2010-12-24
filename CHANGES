@@ -1,0 +1,49 @@
+﻿
+############################
+ QuotesMachine Changes Log
+############################
+
+
+
+QuotesMachine 1.2:
+
+* NEW: export feature extended to support JSON and PHP serialization
+* NEW: import feature (JSON, PHP serialized)
+* NEW: more conventional HTML code
+
+QuotesMachine 1.1:
+
+* NEW: new file names system
+* NEW: the predefined authors feature
+* FIX: minor code fixes
+
+QuotesMachine 1.0.3:
+
+* NEW: the persistent login feature
+* FIX: content is returned although redirection
+
+
+QuotesMachine 1.0.2:
+
+* NEW: link information available in administrative quote list
+* NEW: browser screen set to the quote in administrative quote list
+       after editation
+* NEW: administrative session timeout 30 minutes
+
+
+QuotesMachine 1.0.1:
+
+* NEW: index.php for redirect to login.php when entering to QM directory
+* FIX: documentation fixes
+
+
+QuotesMachine 1.0:
+
+* NEW: web administration
+* NEW: random quote generating for each webpage view
+* NEW: linking to each quote's author
+* NEW: simple database installation script
+
+
+
+
